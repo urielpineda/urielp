@@ -42,7 +42,7 @@ export const Hero: FC = () => {
       <p className="text-xl font-bold tracking-normal md:text-3xl text-black-700 dark:text-white-700">
         {t("hero.p1")}{" "}
         <motion.a
-          href="https://www.codev.com/"
+          href="https://www.codev.com/en"
           target="_blank"
           className="relative text-blue-700"
           whileHover="visible"
@@ -100,8 +100,6 @@ export const Hero: FC = () => {
           {t("hero.des0")}
         </p>
         <p className="mb-8 text-base md:text-xl dark:text-white-700 text-black-700">
-          {t("hero.des1")}
-          <br />
           {t("hero.des2")}
         </p>
         <p className="mb-8 text-base md:text-xl dark:text-white-700 text-black-700">

@@ -5,9 +5,9 @@
     "p0": "Software Developer",
     "p1": "Software Developer at",
     "p2": "Incoming SWE Intern at",
-    "des0": "Software Developer with over 3 years of experience working in the tech industry. Graduated B.S. in Computer Science with Honors.",
+    "des0": "Software Developer with over 3 years of experience working in the IT industry. Graduated B.S. in Computer Science with Honors.",
     "des1": "Mainly focused on mobile and embedded software applications.",
-    "des2": "With extensive experience in Android/iOS native applications, Android TVs, Android/Flash/QT Printers.",
+    "des2": "With extensive experience in Android/iOS native applications, Web applications, and Embedded Software",
     "des3": "My technology stack includes C, C++, Java, Kotlin, Swift, and more."
   },
   "projects": {
@@ -15,15 +15,15 @@
     "description": "Some of the top projects I have worked on, used by millions of people all over the globe.",
     "laddy": {
       "subtitle": "Industry leading provider of data broadcasting services",
-      "description": "On-going project. AndroidTV application using the latest ATSC 3.0 standard"
+      "description": "On-going project. AndroidTV application using the latest ATSC 3.0 standard."
     },
     "nuopen": {
       "subtitle": "Online Tutorial Service",
-      "description": "NativeCamp offers English as Second Language (ESL) tutorial services online. It is the #1 installed app for Online ESL Lessons in the App and Play Store"
+      "description": "NativeCamp offers English as Second Language (ESL) tutorial services online. It is the #1 installed app for Online ESL Lessons in the App and Play Store."
     },
     "railwayz": {
       "subtitle": "Global leader in imaging solutions",
-      "description": "Focused on embedded development of GUI panels for Lexmark printers running on QT, Android, Flash, and more."
+      "description": "Focused on embedded development of GUI panels for Lexmark printers running on QT, Android, and Flash."
     }
   },
   "skills": {
@@ -32,11 +32,11 @@
   },
   "experience": {
     "title": "Experience",
-    "description": "Companies I had the pleasure of working with."
+    "description": "I've worked with all types of companies. From start-ups, outsourcing solutions, to corporate R&D corporations."
   },
   "contact": {
     "title": "Wanna reach out?",
-    "description": "Feel free to drop me a message anytime!"
+    "description": "Feel free to drop me a message!"
   },
   "currently": "Currently",
   "citation": {
