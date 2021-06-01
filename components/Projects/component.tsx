@@ -10,15 +10,6 @@ export const Projects: FC = () => {
   const projects = useMemo(
     () => [
       {
-        title: "Triveni Digital",
-        subtitle: t("projects.laddy.subtitle"),
-        description: t("projects.laddy.description"),
-        technologies: ["C", "C++", "Java"],
-        externalLink: "http://www.trivenidigital.com/",
-        githubLink: "",
-        imageLink: `/images/laddy.png`,
-      },
-      {
         title: "NativeCamp",
         subtitle: t("projects.nuopen.subtitle"),
         description: t("projects.nuopen.description"),
@@ -35,6 +26,15 @@ export const Projects: FC = () => {
         externalLink: "https://lexmark.com",
         githubLink: "",
         imageLink: `/images/railwayz.png`,
+      },
+      {
+        title: "Triveni Digital",
+        subtitle: t("projects.laddy.subtitle"),
+        description: t("projects.laddy.description"),
+        technologies: ["C", "C++", "Java"],
+        externalLink: "http://www.trivenidigital.com/",
+        githubLink: "",
+        imageLink: `/images/laddy.png`,
       },
     ],
     [t]
