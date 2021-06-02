@@ -42,7 +42,7 @@ export const Hero: FC = () => {
       <p className="text-xl font-bold tracking-normal md:text-3xl text-black-700 dark:text-white-700">
         {t("hero.p1")}{" "}
         <motion.a
-          href="https://www.codev.com/"
+          href="https://careers.codev.com/"
           target="_blank"
           className="relative text-blue-700"
           whileHover="visible"
@@ -68,6 +68,7 @@ export const Hero: FC = () => {
           />
         </motion.a>
       </p>
+
       <div className="flex mt-8">
         <MediaIcon
           icon={<FaGithub className="w-6 h-6 md:w-7 md:h-7" />}
