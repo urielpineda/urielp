@@ -1,11 +1,11 @@
 export default {
   title: "Uriel Pineda",
-  description: "Software Developer",
+  description: "Senior Software Developer",
   canonical: "https://urielp.dev",
   openGraph: {
     url: "https://urielp.dev",
     title: "Uriel Pineda",
-    description: "Software Developer",
+    description: "Senior Software Developer",
     images: [
       {
         url: "https://github.com/urielpineda/og-image-01.png",

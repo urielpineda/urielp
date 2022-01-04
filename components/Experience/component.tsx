@@ -16,7 +16,7 @@ export const Experience: FC = () => {
   const experience = useMemo(
     () => [
       {
-        title: "Software Developer",
+        title: "Senior Software Developer",
         place: "Codev",
         date: "Apr 2021 - present",
         imageLink: `/images/codev.png`,
