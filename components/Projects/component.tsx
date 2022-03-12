@@ -10,20 +10,11 @@ export const Projects: FC = () => {
   const projects = useMemo(
     () => [
       {
-        title: "NativeCamp",
-        subtitle: t("projects.nuopen.subtitle"),
-        description: t("projects.nuopen.description"),
-        technologies: ["Java", "Swift", "CakePHP", "AngularJS"],
-        externalLink: "https://nativecamp.net/en",
-        githubLink: "",
-        imageLink: `/images/nuopen.png`,
-      },
-      {
         title: "Lexmark",
         subtitle: t("projects.railwayz.subtitle"),
         description: t("projects.railwayz.description"),
         technologies: ["C", "C++", "Java", "QT", "Flash"],
-        externalLink: "https://lexmark.com",
+        externalLink: "https://www.lexmark.com/en_us/products/hardware/medium-and-large-workgroups.html",
         githubLink: "",
         imageLink: `/images/railwayz.png`,
       },
@@ -32,9 +23,18 @@ export const Projects: FC = () => {
         subtitle: t("projects.laddy.subtitle"),
         description: t("projects.laddy.description"),
         technologies: ["C", "C++", "Java"],
-        externalLink: "http://www.trivenidigital.com/",
+        externalLink: "http://www.trivenidigital.com/products/streamscope-video-quality-monitoring-solutions.php",
         githubLink: "",
         imageLink: `/images/laddy.png`,
+      },
+      {
+        title: "NativeCamp",
+        subtitle: t("projects.nuopen.subtitle"),
+        description: t("projects.nuopen.description"),
+        technologies: ["Java", "Swift", "CakePHP", "AngularJS"],
+        externalLink: "https://nativecamp.net/en",
+        githubLink: "",
+        imageLink: `/images/nuopen.png`,
       },
     ],
     [t]

@@ -5,18 +5,14 @@
     "p0": "Senior Software Developer",
     "p1": "Senior Software Developer at",
     "p2": "Android Developer at",
-    "des0": "Senior Software Developer with over 4 years of experience working in the IT industry. Graduated B.S. in Computer Science with Honors.",
+    "des0": "Senior Software Developer with over 4 years of experience. Graduated B.S. in Computer Science with Honors and currently based in Nevada, USA.",
     "des1": "Mainly focused on mobile and embedded software applications.",
     "des2": "With extensive experience in mobile native applications, Web applications, and Embedded Software.",
-    "des3": "My technology stack includes C, C++, Java, Kotlin, and more."
+    "des3": "My technology stack includes C/C++, Java, Kotlin, and more."
   },
   "projects": {
     "title": "Projects",
     "description": "Some of the top projects I have worked on.",
-    "laddy": {
-      "subtitle": "Industry leading provider of data broadcasting services",
-      "description": "A proof of concept AndroidTV application using the latest ATSC 3.0 standard."
-    },
     "nuopen": {
       "subtitle": "Online Tutorial Service",
       "description": "NativeCamp offers English as Second Language (ESL) tutorial services online. It is the #1 installed app for Online ESL Lessons in the App and Play Store."
@@ -24,6 +20,10 @@
     "railwayz": {
       "subtitle": "Global leader in imaging solutions",
       "description": "Focused on embedded development of GUI panels for Lexmark printers running on QT, Android, and Flash."
+    },
+    "laddy": {
+      "subtitle": "Industry leading provider of data broadcasting services",
+      "description": "A proof of concept AndroidTV application using the latest ATSC 3.0 standard."
     },
     "jobamax": {
       "subtitle": "All-in-one digitalized recruiting",

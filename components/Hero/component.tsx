@@ -2,7 +2,8 @@ import { Container, MediaIcon } from "components";
 import { motion } from "framer-motion";
 import { useTranslation } from "next-i18next";
 import React, { FC } from "react";
-import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram, FaFacebookSquare} from "react-icons/fa";
+{/*import { FaGithub, FaLinkedin, FaEnvelope, FaInstagram, FaFacebookSquare} from "react-icons/fa";*/}
+import { FaGithub, FaLinkedin, FaEnvelope} from "react-icons/fa";
 
 import { HandWave } from "./libs/HandWave";
 
@@ -42,7 +43,7 @@ export const Hero: FC = () => {
       <p className="text-xl font-bold tracking-normal md:text-3xl text-black-700 dark:text-white-700">
         {t("hero.p1")}{" "}
         <motion.a
-          href="https://careers.codev.com/"
+          href="https://codev.com/"
           target="_blank"
           className="relative text-blue-700"
           whileHover="visible"
@@ -84,8 +85,8 @@ export const Hero: FC = () => {
           icon={<FaEnvelope className="w-6 h-6 md:w-7 md:h-7" />}
           href="mailto:utpineda@gmail.com"
           className="mr-4"
-        />
-        <MediaIcon
+       />
+       {/*  <MediaIcon
           icon={<FaFacebookSquare className="w-6 h-6 md:w-7 md:h-7" />}
           href="https://www.facebook.com/urielpineda10/"
           className="mr-4"
@@ -94,7 +95,7 @@ export const Hero: FC = () => {
           icon={<FaInstagram className="w-6 h-6 md:w-7 md:h-7" />}
           href="https://www.instagram.com/urielpineda__/"
           className="mr-4"
-        />
+       /> */}
       </div>
       <div className="mt-10">
         <p className="mb-8 text-base md:text-xl dark:text-white-700 text-black-700">
